@@ -17,7 +17,15 @@
 
 ## 🧰 Установка и запуск
 
-### Клонирование репозитория
+🔧 Шаг 1: Клонировать репозиторий
 ```bash
-git clone https://github.com/ТВОЙ_ЮЗЕРНЕЙМ/predictive_maintenance_project.git
+git clone https://github.com/Dikeydevil/predictive_maintenance_project.git
 cd predictive_maintenance_project
+```
+📦 Шаг 3: Установить зависимости
+```bash
+pip install -r requirements.txt
+```
+🚀 Шаг 4: Запустить приложение
+```bash
+streamlit run app.py
